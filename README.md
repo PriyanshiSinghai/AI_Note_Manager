@@ -1,4 +1,4 @@
-# AI Notes CLI
+# AI Powered Notes Manager 
 
 An AI-powered note-taking command-line application that lets you create, view, delete, and summarize notes using natural language models.
 
@@ -8,3 +8,7 @@ An AI-powered note-taking command-line application that lets you create, view, d
 - Summarize long notes using the Hugging Face API
 - Logs activity for debugging
 - Built-in unit tests
+
+## Installation
+git clone https://github.com/yourusername/ai_notes.git
+
