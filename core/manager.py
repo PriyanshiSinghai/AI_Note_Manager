@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 logging.basicConfig(
-    filename="/Users/psinghai/Dream_AI/Projects/AI_note_manager/data/notes/activity.log",
+    filename="/data/notes/activity.log",
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s"
 )
@@ -22,7 +22,7 @@ def log_action(func):
     
 class NoteManager:
     def __init__(self):
-        self.notes_dir = Path("/Users/psinghai/Dream_AI/Projects/AI_note_manager/data/notes")
+        self.notes_dir = Path("/data/notes")
         self.notes_dir.mkdir(parents=True,exist_ok=True)
 
     def get_note_path(self,title: str):
